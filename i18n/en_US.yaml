@@ -334,7 +334,7 @@ backend:
       name:
         other: a duplicate
       desc:
-        other: This topic has been asked before and already has an reply.
+        other: This topic has been started before and already has an reply.
       placeholder:
         other: Enter the existing topic link
     not_a_answer:
@@ -392,7 +392,7 @@ backend:
         name:
           other: spam
         desc:
-          other: This topic has been asked before and already has an reply.
+          other: This topic has been started before and already has an reply.
       guideline:
         name:
           other: a community-specific reason
@@ -495,7 +495,7 @@ backend:
       title:
         other: "[{{.SiteName }}] Password reset"
       body:
-        other: "Somebody asked to reset your password on {{.SiteName}}.<br><br>\n\nIf it was not you, you can safely ignore this email.<br><br>\n\nClick the following link to choose a new password:<br>\n<a href='{{.PassResetUrl}}' target='_blank'>{{.PassResetUrl}}</a>\n"
+        other: "Somebody started to reset your password on {{.SiteName}}.<br><br>\n\nIf it was not you, you can safely ignore this email.<br><br>\n\nClick the following link to choose a new password:<br>\n<a href='{{.PassResetUrl}}' target='_blank'>{{.PassResetUrl}}</a>\n"
     register:
       title:
         other: "[{{.SiteName}}] Confirm your new account"
@@ -577,7 +577,7 @@ backend:
         name:
           other: Scholar
         desc:
-          other: Asked a topic and accepted an reply.
+          other: Started a topic and accepted an reply.
       commentator:
         name:
           other: Commentator
