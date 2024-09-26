@@ -411,7 +411,7 @@ backend:
           other: This post requires another reason not listed above.
     operation_type:
       asked:
-        other: asked
+        other: started
       answered:
         other: replied
       modified:
@@ -1372,8 +1372,8 @@ ui:
     search: Search people
   question_detail:
     action: Action
-    Asked: Asked
-    asked: asked
+    Asked: Started
+    asked: started
     update: Modified
     edit: edited
     commented: commented
@@ -1561,7 +1561,7 @@ ui:
     unanswered: Unreplied
     modified: modified
     answered: replied
-    asked: asked
+    asked: started
     closed: closed
     follow_a_tag: Follow a tag
     more: More
@@ -1592,7 +1592,7 @@ ui:
     list_empty: No posts found.<br />Perhaps you'd like to select a different tab?
     accepted: Accepted
     answered: replied
-    asked: asked
+    asked: started
     downvoted: downvoted
     mod_short: MOD
     mod_long: Moderators
@@ -2214,7 +2214,7 @@ ui:
     rollback: rollback
     edited: edited
     answered: replied
-    asked: asked
+    asked: started
     closed: closed
     reopened: reopened
     created: created
